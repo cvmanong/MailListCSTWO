@@ -5,9 +5,9 @@ import java.sql.*;
 public class DBUtil {
 
     private static final String driverClass="com.mysql.jdbc.Driver";
-    private static final String Url="jdbc:mysql://localhost:3306/bookms?serverTimezone=UTC&?useUnicode=true&characterEncoding=utf8&useSSL=false";
+    private static final String Url="jdbc:mysql://localhost:3306/test?serverTimezone=UTC&?useUnicode=true&characterEncoding=utf8&useSSL=false";
     private static final String usename="root";
-    private static final String usepass="802511";
+    private static final String usepass="200208";
 
     /**
      * 创建数据库连接
